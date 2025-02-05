@@ -1,0 +1,10 @@
+cidr_block         = "10.0.0.0/16"
+subnet1_cidr_block = "10.0.0.0/24"
+subnet2_cidr_block = "10.0.1.0/24"
+subnet1_az         = "ap-south-1a"
+subnet2_az         = "ap-south-1b"
+rt_cidr_block      = "0.0.0.0/0"
+ami                = "ami-00bb6a80f01f03502"
+instance_type      = "t2.micro"
+s3                 = "newprojectnews3bucket"
+ingeg              = ["0.0.0.0/0"]
