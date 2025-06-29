@@ -1,0 +1,38 @@
+# Local .terraform directories
+.terraform/
+
+# Terragrunt cache (if using Terragrunt)
+.terragrunt-cache/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Exclude override files as they are usually local changes
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore variable files containing secrets or environment-specific data
+*.tfvars
+*.tfvars.json
+
+# Sensitive .auto.tfvars files (if any)
+*.auto.tfvars
+
+# Ignore plan output
+terraform.tfplan
+
+# Ignore CLI configuration files (optional)
+.terraformrc
+terraform.rc
+
+# MacOS specific (if working on Mac)
+.DS_Store
+
+# Windows specific (if working on Windows)
+Thumbs.db
